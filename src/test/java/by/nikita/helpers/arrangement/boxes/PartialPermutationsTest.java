@@ -28,7 +28,7 @@ class PartialPermutationsTest {
 
         int[][] expectedPermutations = new int[][] {
                 new int[] { 1, 2 }, new int[] { 2, 1 },
-                };
+        };
 
         assertPermutationEquals(expectedPermutations, permutations);
     }
@@ -44,7 +44,7 @@ class PartialPermutationsTest {
                 new int[] { 2, 3, 1 },
                 new int[] { 3, 1, 2 },
                 new int[] { 3, 2, 1 },
-                };
+        };
 
         assertPermutationEquals(expectedPermutations, permutations);
     }
@@ -86,7 +86,7 @@ class PartialPermutationsTest {
                 new int[] { 4, 2, 3, 1 },
                 new int[] { 4, 3, 1, 2 },
                 new int[] { 4, 3, 2, 1 },
-                };
+        };
 
         assertPermutationEquals(expectedPermutations, permutations);
     }

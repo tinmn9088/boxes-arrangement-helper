@@ -5,7 +5,9 @@ import java.util.Iterator;
 import java.util.stream.IntStream;
 
 /**
- * See: <a href="https://en.wikipedia.org/wiki/Partial_permutation#Restricted_partial_permutations">Partial permutation on Wikipedia</a>
+ * See: <a href=
+ * "https://en.wikipedia.org/wiki/Partial_permutation#Restricted_partial_permutations">Partial
+ * permutation on Wikipedia</a>
  */
 public class PartialPermutations implements Permutations {
 
@@ -94,7 +96,8 @@ public class PartialPermutations implements Permutations {
                     // swap permutation[mark] with permutation[i]
                     swap(mark, i);
 
-                    // now elements to the right of permutation[mark] are sorted in descending order,
+                    // now elements to the right of permutation[mark] are sorted in descending
+                    // order,
                     // reverse to sort in ascending order
                     int left = mark + 1;
                     int right = n - 1;
